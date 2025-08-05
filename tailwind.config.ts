@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom design system colors
+				'healing-blue': 'hsl(var(--healing-blue))',
+				'healing-blue-light': 'hsl(var(--healing-blue-light))',
+				'caring-green': 'hsl(var(--caring-green))',
+				'caring-green-light': 'hsl(var(--caring-green-light))',
+				'warm-neutral': 'hsl(var(--warm-neutral))',
+				'soft-shadow': 'hsl(var(--soft-shadow))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
