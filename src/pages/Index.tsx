@@ -9,15 +9,9 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
-  console.log('Index component rendering...');
-  
   return (
-    <div className="min-h-screen bg-background p-8">
-      <h1 className="text-4xl font-bold text-center mb-8">Helping Paws</h1>
-      <p className="text-center text-lg">Welcome to our website!</p>
-      
-      {/* Temporarily comment out components to isolate the issue */}
-      {/* <Header />
+    <div className="min-h-screen bg-background">
+      <Header />
       <HeroSection />
       <AboutSection />
       <DevicesSection />
@@ -25,7 +19,7 @@ const Index = () => {
       <DonationSection />
       <RequestSection />
       <ContactSection />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };
